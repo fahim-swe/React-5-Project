@@ -16,14 +16,17 @@
         height: 100%;
         justify-content: center;
 
+
         h1 {
             font: 400 6rem $text1;
             color: $first;
+            margin-right: 3rem;
         }
 
         p {
             font: 900 1rem $text1;
             color: $first;
+            margin-right: 3rem;
         }
     }
 
