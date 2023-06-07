@@ -1,0 +1,149 @@
+.sideBarContainer{
+    width: 35%;
+}
+
+.sideBarmemberList{
+
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border-top: 10px solid #5A47EE;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+
+    padding: 1rem;
+
+    > div{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        gap: 1rem;
+        padding: 1rem;
+
+        > svg{
+            color: #5A47EE;
+            font-size: 20px;
+            font-weight: 900;
+            font-family: "Roboto";
+        }
+
+        > div > h3{
+            font-family: "Roboto";
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 20px;
+        }
+
+        > div > p{
+            color: #717171;
+            font-family: "Roboto";
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+        }
+    }
+
+    > button {
+
+        width: 100%;
+        padding: 10px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        color: #FFFFFF;
+        background: #5A47EE;
+        border-radius: 36px;
+
+    }
+}
+
+.popularTagList{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 1rem;
+    margin: 1rem 0rem 0rem 1rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+
+    > div{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 6px 16px;
+        gap: 10px;
+
+        background: #FFFFFF;
+
+        border: 1px solid #5A47EE;
+        border-radius: 20px;
+        color: #454959
+    }
+}
+
+
+.askNbrRules{
+    border: 1px solid #000000;
+    margin: 1rem 0rem 0rem 1rem;
+    padding: 1rem;
+}
+
+.listOfQuestion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+
+
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+
+    color: #000000;
+
+    > svg{
+        cursor: pointer;
+    }
+}
+
+
+
+.askNbarSection1{
+ 
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+
+    > svg{
+        color: #5A47EE;
+        font-size: 20px;
+        font-weight: 900;
+        font-family: "Roboto";
+        
+    }
+
+    > div > h3{
+        font-family: "Roboto";
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    > div > p{
+        
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #717171;
+    }
+}

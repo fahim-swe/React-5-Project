@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,600;1,700;1,800&display=swap');
+
+
+@import "colors.scss";
+@import "navbar.scss";
+@import "home.scss";
+@import "search.scss";
+@import "newsfeed.scss";
+@import "sidebar.scss";
+@import "footer.scss";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.activeItem{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 8px 16px;
+    background: #EFEFEF;
+    border-radius: 36px;
+    padding: 8px 16px;
+    gap: 8px;
+    background: #EFEFEF;
+    border-radius: 36px;
+
+
+    color: #5A47EE;
+
+    font-style: normal;
+
+    font-weight: bold;
+   
+    
+    line-height: 20px;
+    text-align: center;
+
+
+
+    > svg{
+        color: #5A47EE;
+    }
+}

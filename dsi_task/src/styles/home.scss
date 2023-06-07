@@ -1,0 +1,151 @@
+.containerHome{
+    width: 80vw;
+    margin: auto;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+
+    width: 80vw;
+    margin: auto;
+    align-items: center;
+    border: 1px solid #000000;
+    background: #FFFFFF;
+    margin-top: 2rem;
+    padding: 1rem;
+
+   
+
+    > .item1{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 2rem;
+
+        > div{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            padding: 8px 16px;
+            gap: 0.5rem;
+
+            height: 40px;
+
+            background: #FFFFFF;
+            border-radius: 36px;
+
+
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 20px;
+            text-align: center;
+            flex: none;
+            order: 1;
+            flex-grow: 0;
+
+            > svg{
+                color: #000000;
+                font-size: large;
+                
+            }
+
+            > span{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 10px;
+                gap: 10px;
+                
+                width: 24px;
+                height: 24px;
+                
+                background: #FF0000;
+                border-radius: 40px;
+
+
+                font-family: "Roboto";
+                font-weight: 700;
+                color: #FFFFFF;
+                font-size: 14px;
+                line-height: 14px;
+
+            }
+        }
+        .activeItem{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding: 8px 16px;
+            background: #EFEFEF;
+            border-radius: 36px;
+            padding: 8px 16px;
+            gap: 8px;
+            background: #EFEFEF;
+            border-radius: 36px;
+
+
+            color: #5A47EE;
+        
+            font-style: normal;
+
+            font-weight: bold;
+           
+            
+            line-height: 20px;
+            text-align: center;
+
+
+
+            > svg{
+                color: #5A47EE;
+            }
+        }
+    }
+
+    > .item2{
+        padding: 8px 40px;
+        gap: 10px;
+        background: #FFFFFF;
+        border: 1px solid #5A47EE;
+        border-radius: 36px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 20px;
+
+        text-align: center;
+        color: #5A47EE;
+        cursor: pointer;
+
+    }
+}
+
+
+.newsNeedContainer{
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+
+.userInfoSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 0.5rem;
+
+    > img{
+        height: 20px;
+        width: 20px;
+        font-family: "Roboto";
+        font-size: 25px;
+        font-weight: 900;
+    }
+}

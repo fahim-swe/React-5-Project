@@ -1,0 +1,215 @@
+
+
+.newsFeedContainer{
+    width: 65%;
+    margin-bottom: 1rem;
+}
+
+.newCardSection{
+    margin-top: 1rem;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    padding: 1rem;
+
+    > .userInfo{
+        display: flex;
+        gap: 1rem;
+
+        > .userProfileImage{
+            background: #5A47EE;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+        }
+
+        > .userDetails{
+            
+
+            > .userName{
+
+                > div{
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    gap: 1rem;
+
+                    > h3{
+                       
+                        font-style: normal;
+                        font-weight: 800;
+                        line-height: 20px;
+                        color: #000000;
+                    }
+
+                    > div{
+                        color: #717171;
+                      
+                        font-weight: 200;
+                        font-size: 14px;
+                        text-align: center;
+                    }
+                }
+
+                > p{
+                    color: #717171
+                }
+              
+                
+            }
+
+
+        }
+
+    }
+
+    > .content{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        
+        letter-spacing: 0.5px;
+        
+        
+        color: #000000;
+        margin: 1rem 0;
+    }
+
+    > img{
+        height: 300px;
+        width: 100%;
+    }
+
+
+
+
+
+
+    > .likeComment{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 1rem;
+        align-items: center;
+
+        > div{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            gap: 1rem;
+
+            > div{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 0.5rem;
+                font-size: 15px;
+                font-weight: 400;
+            }
+        }
+
+        > div{
+            display: flex;
+
+            align-items: center;
+            justify-content: center;
+
+            > p{
+               
+                padding: 6px 16px;
+                background: #FFFFFF;
+
+                border: 1px solid #5A47EE;
+                border-radius: 20px;
+                font-size: 20px;
+                color: #5A47EE;
+            }
+        }
+    }
+
+
+    .comment {
+        
+        padding: 1rem;
+        > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+
+            > img{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+            }
+
+            > div{
+            
+                background: #F2F2F2;
+                border-radius: 20px;
+                padding: 1rem;
+            
+            
+
+                > div{
+                    display: flex;
+                    justify-content: flex-start;
+            
+                    width: 100%;
+
+                    > h3{
+                    
+                       
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 20px;
+
+                        color: #000000;
+                        margin-right: 1rem;
+                    }
+
+
+                    > div{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: 0.5rem;
+
+                        > img{
+                            width: 15px;
+                            height: 15px;
+                        }
+
+                        > p{
+                               
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 15px;
+                                line-height: 12px;
+                                
+                                color: #717171;
+                        }
+                    }
+
+                
+                }
+                
+
+                > p{
+                    
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 13px;
+                    line-height: 20px;
+                    color: #000000;
+                }
+            }
+
+            
+           
+
+        }
+    }
+
+}
